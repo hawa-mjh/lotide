@@ -1,6 +1,6 @@
 const assertEqual = require("../assertEqual");
 const tail = require("../tail");
-
+const assert = require("chai").assert;
 
 // Test Case: Check the original array 
 const words = ["Yo Yo", "Lighthouse", "Labs"];
